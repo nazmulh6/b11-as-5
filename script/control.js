@@ -10,6 +10,12 @@ document.getElementById('history-card-6').style.display = 'none';
   alert('board updated successfully');
 
    document.getElementById('history-card-1').style.display = 'block';
+
+   const numPlus = document.getElementById('number-plus');
+   const convertedNumPlus = parseInt(numPlus.textContent, 23);
+   if(convertedNumPlus <30){
+      numPlus.textContent = numPlus + 1;
+   }
 })
  
  document.getElementById('comBtn-2').addEventListener('click', function () {
