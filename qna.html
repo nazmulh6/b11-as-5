@@ -9,6 +9,82 @@
 </head>
 <body class="bg-[#F4F7FF]">
     
+ <!-- navbar section -->
+ <nav class="p-5  ">
+    <div class="navbar bg-base-100 shadow-sm rounded ">
+      <div class="flex-1">
+        <div class="flex gap-1">
+          <img class="w-10" src="assets/logo.png" alt="">
+          <a class=" text-3xl justify-center items-center">Dev <span class="font-bold">Board</span></a>
+        </div>
+      </div>
+      <div id="back-btn" class="">
+        <button  class="btn btn-info">Back to Desk</button>
+      </div>
+  </nav>
+
+  <section class="p-5">
+    <div class="bg-white rounded-lg  my-3">
+        <div class="p-3">
+            <h1 class="my-2 font-bold text-xl">Question-1: What are the different ways to select an element in the DOM?</h1>
+        <hr class="text-gray-400 ">
+        <p class="text-gray-500 p-2 text-lg "> Answer: There are 5 ways to select element in the DOM. They are:
+          <ol>
+            <li><b>getElementById</b></li>
+            <li><b>getElementsByClassName</b></li>
+            <li><b>getElementsByTagName</b></li>
+            <li><b>querySelectorAll</b></li>
+            <li><b>querySelector</b></li>
+            <p>Here we can navigate only one element by <b>getElementById</b> and <b>querySelector</b>. </p>
+          </ol>
+        </p>
+        </div>
+      </div>
+      
+    <div class="bg-white rounded-lg  my-3">
+        <div class="p-3">
+            <h1 class="my-2 font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+        <hr class="text-gray-400 ">
+        <p class="text-gray-500 p-2 text-lg "> Answer: <br> <b>innerHTML:</b> This property can read any HTML code with Tags in the DOM element. <br> <b>innerText:</b> This property can return any HTML text without CSS hidden styles. <br> <b>textContent:</b>This property can return any HTML text with visible or hidden CSS styles. </p>
+        </div>
+      </div>
+    <div class="bg-white rounded-lg  my-3">
+        <div class="p-3">
+            <h1 class="my-2 font-bold text-xl">Question-3: What is event delegation in the DOM?
+
+            </h1>
+        <hr class="text-gray-400 ">
+        <p class="text-gray-500 p-2 text-lg "> Answer: Event delegation is a mechanism in Javascript where an event listener is connected to a parent element to handle event for all of its child element. </p>
+        </div>
+      </div>
+    <div class="bg-white rounded-lg  my-3">
+        <div class="p-3">
+            <h1 class="my-2 font-bold text-xl">Question-4: What is event bubbling in the DOM?
+
+            </h1>
+        <hr class="text-gray-400 ">
+        <p class="text-gray-500 p-2 text-lg "> Answer: Event bubble is a process in the DOM where an event on a targeted element then step by step bubbles up through its parent element in the DOM tree untill it arrives the root element.</p>
+        </div>
+      </div>
+    <div class="bg-white rounded-lg  my-3">
+        <div class="p-3">
+            <h1 class="my-2 font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?
+
+            </h1>
+        <hr class="text-gray-400 ">
+        <p class="text-gray-500 p-2 text-lg "> Answer: We can create an element in Javascript by using <b>document.createElement()</b> method.  then we can add the created element with the parent element using <b>parent.appendChild('new created element')</b>. if we want to remove any child element from parent element, we can use <b>parent.removeChild('targeted child element')</b> </p>
+        </div>
+      </div>
+
+  </section>
+
+
+  <script>
+    document.getElementById('back-btn').addEventListener('click', function(){
+    window.location.href="main.html"
+})
+  </script>
+
 
 </body>
 </html>
