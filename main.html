@@ -11,6 +11,229 @@
 
 <body class="bg-[#F4F7FF]">
 
+  <!-- navbar section -->
+  <nav class="p-5  ">
+    <div class="navbar bg-base-100 shadow-sm rounded ">
+      <div class="flex-1">
+        <div class="flex gap-1">
+          <img class="w-10" src="assets/logo.png" alt="">
+          <a class=" text-3xl justify-center items-center">Dev <span class="font-bold">Board</span></a>
+        </div>
+      </div>
+      <div class="flex-none">
+        <div class="flex gap-3 justify-center">
+          <div class="bg-[#F4F7FF] rounded-md ">
+            <div class="flex justify-center items-center gap-1  p-1 ">
+              <img class="w-4 cursor-pointer" src="assets/checkbox.png" alt="">
+              <h1 class="font-bold ">23</h1>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="cursor-pointer  btn-circle avatar">
+              <div class="w-8 rounded-full">
+                <img id="color-btn" src="assets/theme-btn.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <main class="flex p-3 gap-3">
+    <section class="section-1 bg-white rounded-lg w-3/4">
+      <div class="small-card justify-between cards grid grid-cols-3 gap-2 p-3 ">
+
+        <div id="sm-card-1"
+          class="  flex items-center gap-1 justify-center bg-[#F4F7FF] cursor-pointer border-none rounded-md border p-4 text-center ">
+          <div>
+            <img class="mx-auto w-10 mb-1" src="assets/checkbox.png" alt="">
+          </div>
+          <div>
+            <h3>Task Assigned</h3>
+            <h3 class="font-bold">6</h3>
+          </div>
+        </div>
+        <div id="sm-card-2"
+          class=" gap-0 bg-gradient-to-r from-[#6C7FFA] to-[#9BA8F8]  flex justify-center cursor-pointer rounded-md border-none p-4 text-center items-center ">
+          <img class="mx-auto w-12 mb-1" src="assets/board.png" alt="">
+          <h3 class="text-white font-semibold">Discover Something New Today!</h3>
+        </div>
+
+        <div id="sm-card-3"
+          class=" cursor-pointer flex items-center gap-2 justify-center bg-[#F4F7FF]  rounded-md border-none p-4 text-center ">
+          <div>
+            <img class="mx-auto w-10 mb-1" src="assets/calender.png" alt="">
+          </div>
+          <div>
+            <h3>Wed ,</h3>
+            <h3 class="font-bold">Apr 21, 2025</h3>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="big-card cards grid grid-cols-3 gap-2 p-3">
+
+
+        <div id="sm-card-1"
+          class="box items-center gap-1 justify-center bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">ShopEase</button>
+          <h3 class="font-bold text-xl">Fix Mobile Button Issue </h3>
+          <div class="bg-white rounded-lg  my-3">
+            <p class="text-gray-400 p-2 ">Debug using Chrome DevTools, check for overlapping elements, and ensure
+              onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-1" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+        <div id="sm-card-2"
+          class="box items-center gap-1 justify-center bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">CloudSync</button>
+          <h3 class="font-bold text-xl">Add Dark Mode </h3>
+          <div class="bg-white rounded-lg my-3">
+            <p class="text-gray-400 p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-2" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+
+        <div id="sm-card-3"
+          class="box items-center gap-1 justify-center bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">SwiftPay</button>
+          <h3 class="font-bold text-xl">Optimize Home page </h3>
+          <div class="bg-white rounded-lg my-3">
+            <p class="text-gray-400 p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-3" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+
+        <div id="sm-card-4"
+          class="box items-center gap-1 justify-center bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">Meta</button>
+          <h3 class="font-bold text-xl">Add new emoji 🤲</h3>
+          <div class="bg-white rounded-lg my-3">
+            <p class="text-gray-400 p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-4" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+
+        <div id="sm-card-5" class="box  gap-1  bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">Google LLC</button>
+          <h3 class="font-bold text-xl">Integrate OpenAI API </h3>
+          <div class="bg-white rounded-lg my-3">
+            <p class="text-gray-400 p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-5" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+        <div id="sm-card-6" class="box  gap-1  bg-[#F4F7FF]  border-none rounded-md border p-4  ">
+          <button class="btn">Glassdoar</button>
+          <h3 class="font-bold text-xl">Improve Job searching </h3>
+          <div class="bg-white rounded-lg my-3">
+            <p class="text-gray-400 p-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick
+              works properly
+              and ensure onClick works properly</p>
+          </div>
+          <div class="flex justify-between">
+            <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
+            <button id="comBtn-6" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="section-2  bg-white rounded-lg w-1/4 ">
+      <div class="justify-center items-center text-center">
+        <div class="flex justify-center m-4 gap-1 text-center">
+          <img src="assets/activity.png" alt="">
+          <h3>Activity Log</h3>
+        </div>
+        <div>
+          <button id="clear" class="btn btn-info mb-5">Clear History</button>
+        </div>
+      </div>
+      <hr class="text-gray-200">
+
+      <div id="history-card-1"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Fix Mobile Button Issue at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+      <div id="history-card-2"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Add Dark Mode at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+      <div id="history-card-3"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Optimize Home page  at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+      <div id="history-card-4"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Add new emoji 🤲 at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+      <div id="history-card-5"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Integrate OpenAI API at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+      <div id="history-card-6"
+        class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
+        <div>
+          <h3>You have completed the task Improve Job searching at: <div id="time"></div></h3>
+        </div>
+      </div>
+ 
+
+    </section>
+  </main>
+
+
+  <script src="script/control.js"></script>
+
 </body>
 
 </html>
