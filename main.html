@@ -65,9 +65,8 @@
           <div>
             <img class="mx-auto w-10 mb-1" src="assets/calender.png" alt="">
           </div>
-          <div>
-            <h3>Wed ,</h3>
-            <h3 class="font-bold">Apr 21, 2025</h3>
+          <div id="current-day&date" class="font-medium">
+           
           </div>
         </div>
 
@@ -89,7 +88,7 @@
           </div>
           <div class="flex justify-between">
             <h3>Deadline, <br> <span class="font-bold">21 March 2025</span></h3>
-            <button id="comBtn-1" onclick="buttonDisability(this)" class="btn btn-info">Completed</button>
+            <button id="comBtn-1" onclick="buttonDisability(this), minusNumber()" class="btn btn-info">Completed</button>
           </div>
         </div>
 
@@ -183,47 +182,48 @@
           <button id="clear" class="btn btn-info mb-5">Clear History</button>
         </div>
       </div>
+      
       <hr class="text-gray-200">
 
       <div id="history-card-1"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Fix Mobile Button Issue at: <div id="time"></div></h3>
+          <h3 class=" font-medium">You have completed the task Fix Mobile Button Issue at: <div id="time1"></div></h3>
         </div>
       </div>
  
       <div id="history-card-2"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Add Dark Mode at: <div id="time"></div></h3>
+          <h3 class=" font-medium">You have completed the task Add Dark Mode at: <div id="time2"></div></h3>
         </div>
       </div>
  
       <div id="history-card-3"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Optimize Home page  at: <div id="time"></div></h3>
+          <h3 class=" font-medium"> You have completed the task Optimize Home page  at: <div id="time3"></div></h3>
         </div>
       </div>
  
       <div id="history-card-4"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Add new emoji 🤲 at: <div id="time"></div></h3>
+          <h3 class=" font-medium">You have completed the task Add new emoji 🤲 at: <div id="time4"></div></h3>
         </div>
       </div>
  
       <div id="history-card-5"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Integrate OpenAI API at: <div id="time"></div></h3>
+          <h3 class=" font-medium">You have completed the task Integrate OpenAI API at: <div id="time5"></div></h3>
         </div>
       </div>
  
       <div id="history-card-6"
         class="box bg-[#F4F7FF]  border-none rounded-md border p-2 m-3 text-center ">
         <div>
-          <h3>You have completed the task Improve Job searching at: <div id="time"></div></h3>
+          <h3 class=" font-medium"> You have completed the task Improve Job searching at: <div id="time6"></div></h3>
         </div>
       </div>
  
@@ -233,6 +233,9 @@
 
 
   <script src="script/control.js"></script>
+  <script src="script/count.js"></script>
+  <script src="script/time.js"></script>
+  <script src="script/date&day.js"></script>
 
 </body>
 
